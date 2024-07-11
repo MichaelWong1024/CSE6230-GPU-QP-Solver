@@ -1,0 +1,32 @@
+CC := gcc
+MKL_LOAD_FLAGS := -L${MKLROOT}/lib/intel64 -lmkl_intel_lp64 -lmkl_sequential -lmkl_core -lpthread -lm -ldl
+MKL_CMP_FLAGS := -I"${MKLROOT}/include"
+CFLAGS := $(MKL_CMP_FLAGS) $(MKL_LOAD_FLAGS) -o3 -lstdc++ -pg
+
+LIBRARY := blas_actors.o support.o cublas_actors.o
+SRC := cpu_ipm.o blas_test.o cblas_test.o
+PRODUCT := cpu_ipm.out blas_test.out cblas_test.out
+OBJ = $(SRC) $(LIBRARY)
+
+all: $(PRODUCT)
+
+library: $(LIBRARY)
+
+clean::
+		rm -f $(OBJ) $(PRODUCT) *.txt
+
+%.o : %.cpp
+	$(CC) $(CFLAGS) -c $< -o $@
+
+%.out : %.cpp $(LIBRARY)
+		$(CC) $(CFLAGS) $< $(LIBRARY) -o $@
+
+profiling::
+		./cpu_ipm.out
+		gprof -a cpu_ipm.out gmon.out > profiling_result.txt
+
+test_cpu::
+		./cpu_ipm.out > cpu_results.txt
+
+test_cblas::
+		./cblas_test.out

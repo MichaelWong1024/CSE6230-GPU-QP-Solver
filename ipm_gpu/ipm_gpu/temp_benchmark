@@ -1,0 +1,73 @@
+[swang980@atl1-1-01-002-7-0 ipm_gpu]$ ./gpu_ipm.out 100
+rd_total 0.102919 s
+rb_total 0.000982 s
+lhs_total 0.063307 s
+rhs_total 0.001051 s
+dz_total 0.012804 s
+dl_total 0.000575 s
+dt_total 0.000104 s
+Total_time 0.182740 s
+[swang980@atl1-1-01-002-7-0 ipm_gpu]$ ./gpu_ipm.out 200
+rd_total 0.153349 s
+rb_total 0.003813 s
+lhs_total 0.151246 s
+rhs_total 0.004226 s
+dz_total 0.010965 s
+dl_total 0.001822 s
+dt_total 0.000142 s
+Total_time 0.326604 s
+[swang980@atl1-1-01-002-7-0 ipm_gpu]$ ./gpu_ipm.out 400
+rd_total 0.177984 s
+rb_total 0.013041 s
+lhs_total 0.330309 s
+rhs_total 0.011568 s
+dz_total 0.050210 s
+dl_total 0.011228 s
+dt_total 0.000271 s
+Total_time 0.595709 s
+[swang980@atl1-1-01-002-7-0 ipm_gpu]$ ./gpu_ipm.out 800
+rd_total 0.434736 s
+rb_total 0.045858 s
+lhs_total 1.215640 s
+rhs_total 0.045673 s
+dz_total 0.311779 s
+dl_total 0.045812 s
+dt_total 0.000674 s
+Total_time 2.101757 s
+[swang980@atl1-1-01-002-7-0 ipm_gpu]$ ./cpu_ipm.out 100
+rd_total 0.008363 s
+rb_total 0.000379 s
+lhs_total 0.009859 s
+rhs_total 0.000489 s
+dz_total 0.006670 s
+dl_total 0.000435 s
+dt_total 0.000064 s
+Total_time 0.027094 s
+[swang980@atl1-1-01-002-7-0 ipm_gpu]$ ./cpu_ipm.out 200
+rd_total 0.008696 s
+rb_total 0.001281 s
+lhs_total 0.076923 s
+rhs_total 0.002989 s
+dz_total 0.034887 s
+dl_total 0.002808 s
+dt_total 0.000145 s
+Total_time 0.128623 s
+[swang980@atl1-1-01-002-7-0 ipm_gpu]$ ./cpu_ipm.out 400
+rd_total 0.040845 s
+rb_total 0.010987 s
+lhs_total 0.489924 s
+rhs_total 0.011194 s
+dz_total 0.127999 s
+dl_total 0.011166 s
+dt_total 0.000261 s
+Total_time 0.693338 s
+[swang980@atl1-1-01-002-7-0 ipm_gpu]$ ./cpu_ipm.out 800
+rd_total 0.108723 s
+rb_total 0.055657 s
+lhs_total 3.492908 s
+rhs_total 0.057065 s
+dz_total 1.192689 s
+dl_total 0.062876 s
+dt_total 0.000855 s
+Total_time 4.972293 s
+[swang980@atl1-1-01-002-7-0 ipm_gpu]$ 

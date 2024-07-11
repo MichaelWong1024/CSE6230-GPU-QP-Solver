@@ -1,0 +1,56 @@
+
+Setting up the problem...  0.000012 s
+M = 5, K = 6, and N = 5
+CPU multiplication... 0.000000 s
+GPU multiplication... 0.136205 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...  0.000045 s
+M = 32, K = 32, and N = 32
+CPU multiplication... 0.000026 s
+GPU multiplication... 0.125119 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...  0.000139 s
+M = 64, K = 64, and N = 64
+CPU multiplication... 0.000247 s
+GPU multiplication... 0.124912 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...  0.000525 s
+M = 128, K = 128, and N = 128
+CPU multiplication... 0.002544 s
+GPU multiplication... 0.125502 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...  0.002057 s
+M = 256, K = 256, and N = 256
+CPU multiplication... 0.022862 s
+GPU multiplication... 0.133544 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...  0.008051 s
+M = 512, K = 512, and N = 512
+CPU multiplication... 0.454566 s
+GPU multiplication... 0.125894 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...  0.027946 s
+M = 1024, K = 1024, and N = 1024
+CPU multiplication... 3.445872 s
+GPU multiplication... 0.139301 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...  0.107371 s
+M = 2048, K = 2048, and N = 2048
+CPU multiplication... 57.287750 s
+GPU multiplication... 0.169403 s
+Verifying results...TEST PASSED
+

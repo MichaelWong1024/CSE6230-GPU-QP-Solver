@@ -1,0 +1,937 @@
+// GPU: single and multi
+[swang980@atl1-1-01-002-6-0 ipm_gpu]$ ./gpu_ipm.out 50
+50
+Q size: 2500
+c size: 50
+J size: 5000
+g size: 100
+Matrix size [100, 50]
+0.984635
+0.73607
+1.36739e+51
+-2.81019e+147
+rd_total 0.085343 s
+rb_total 0.000404 s
+lhs_total 0.039974 s
+rhs_total 0.000447 s
+dz_total 0.005487 s
+dl_total 0.000255 s
+dt_total 0.000090 s
+Total_time 0.133083 s
+Q size: 2500
+c size: 50
+Matrix size [100, 50]
+0.984635
+0.973153
+-7.58374e+88
+1.45932e+96
+-nan
+-nan
+-nan
+-nan
+rd_total 0.128810 s
+rb_total 0.000676 s
+lhs_total 0.077534 s
+rhs_total 0.000899 s
+dz_total 0.003654 s
+dl_total 0.000442 s
+dt_total 0.000128 s
+Total_time 0.214083 s
+[swang980@atl1-1-01-002-6-0 ipm_gpu]$ ./gpu_ipm.out 100
+100
+Q size: 10000
+c size: 100
+J size: 20000
+g size: 200
+Matrix size [200, 100]
+0.982661
+1.49481e+75
+-nan
+-nan
+rd_total 0.093858 s
+rb_total 0.000894 s
+lhs_total 0.060630 s
+rhs_total 0.000901 s
+dz_total 0.006622 s
+dl_total 0.000544 s
+dt_total 0.000121 s
+Total_time 0.164675 s
+Q size: 10000
+c size: 100
+Matrix size [200, 100]
+0.982661
+0.969128
+-8.37837e+134
+-3.60836e+147
+-nan
+-nan
+-nan
+-nan
+rd_total 0.168850 s
+rb_total 0.001621 s
+lhs_total 0.119472 s
+rhs_total 0.001769 s
+dz_total 0.007618 s
+dl_total 0.000933 s
+dt_total 0.000201 s
+Total_time 0.302522 s
+[swang980@atl1-1-01-002-6-0 ipm_gpu]$ ./gpu_ipm.out 200
+200
+Q size: 40000
+c size: 200
+J size: 80000
+g size: 400
+Matrix size [400, 200]
+0.983546
+-4.7281e+20
+-2.01953e+303
+-nan
+rd_total 0.148317 s
+rb_total 0.003746 s
+lhs_total 0.179894 s
+rhs_total 0.004459 s
+dz_total 0.019399 s
+dl_total 0.002244 s
+dt_total 0.000161 s
+Total_time 0.359469 s
+Q size: 40000
+c size: 200
+Matrix size [400, 200]
+0.983546
+0.971252
+3.8918e+09
+3.8476e+09
+2.20391e+09
+2.17867e+09
+1.24997e+09
+1.23589e+09
+rd_total 0.285260 s
+rb_total 0.007334 s
+lhs_total 0.280840 s
+rhs_total 0.008723 s
+dz_total 0.072176 s
+dl_total 0.005643 s
+dt_total 0.000309 s
+Total_time 0.662567 s
+[swang980@atl1-1-01-002-6-0 ipm_gpu]$ ./gpu_ipm.out 400
+400
+Q size: 160000
+c size: 400
+J size: 320000
+g size: 800
+Matrix size [800, 400]
+0.983333
+5.60461e+10
+4.22089e+10
+3.17955e+10
+rd_total 0.175240 s
+rb_total 0.012795 s
+lhs_total 0.326104 s
+rhs_total 0.011556 s
+dz_total 0.191933 s
+dl_total 0.011190 s
+dt_total 0.000345 s
+Total_time 0.730461 s
+Q size: 160000
+c size: 400
+Matrix size [800, 400]
+0.983333
+0.970854
+-4.12869e+217
+-8.77061e+227
+-nan
+-nan
+-nan
+-nan
+rd_total 0.329388 s
+rb_total 0.025087 s
+lhs_total 0.638408 s
+rhs_total 0.022850 s
+dz_total 0.106381 s
+dl_total 0.022136 s
+dt_total 0.000488 s
+Total_time 1.147042 s
+[swang980@atl1-1-01-002-6-0 ipm_gpu]$ ./gpu_ipm.out 800
+800
+Q size: 640000
+c size: 800
+J size: 1280000
+g size: 1600
+Matrix size [1600, 800]
+0.983245
+9.44498e+27
+2.02367e+248
+-nan
+rd_total 0.433482 s
+rb_total 0.049168 s
+lhs_total 1.265600 s
+rhs_total 0.047632 s
+dz_total 0.680172 s
+dl_total 0.053138 s
+dt_total 0.000734 s
+Total_time 2.531543 s
+Q size: 640000
+c size: 800
+Matrix size [1600, 800]
+0.983245
+0.970751
+7.47049e+14
+7.38637e+14
+4.24088e+14
+4.19313e+14
+2.40785e+14
+2.38075e+14
+rd_total 0.875908 s
+rb_total 0.096989 s
+lhs_total 2.602851 s
+rhs_total 0.096334 s
+dz_total 2.486433 s
+dl_total 0.115360 s
+dt_total 0.001328 s
+Total_time 6.278417 s
+[swang980@atl1-1-01-002-6-0 ipm_gpu]$ ./gpu_ipm.out 1600
+1600
+Q size: 2560000
+c size: 1600
+J size: 5120000
+g size: 3200
+Matrix size [3200, 1600]
+0.983455
+2.51206e+07
+2.43464e+14
+1.83419e+14
+rd_total 1.459658 s
+rb_total 0.292327 s
+lhs_total 5.735191 s
+rhs_total 0.277308 s
+dz_total 9.092078 s
+dl_total 0.295777 s
+dt_total 0.001708 s
+Total_time 17.177870 s
+Q size: 2560000
+c size: 1600
+Matrix size [3200, 1600]
+0.983455
+0.971106
+5.04783e+17
+4.99113e+17
+2.86761e+17
+2.83534e+17
+1.6285e+17
+1.61018e+17
+rd_total 2.905085 s
+rb_total 0.584252 s
+lhs_total 11.418589 s
+rhs_total 0.543726 s
+dz_total 15.215506 s
+dl_total 0.589065 s
+dt_total 0.003408 s
+Total_time 31.307001 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./gpu_ipm.out 3200
+3200
+Q size: 10240000
+c size: 3200
+J size: 20480000
+g size: 6400
+Matrix size [6400, 3200]
+0.983045
+-4.81153e+98
+-nan
+-nan
+rd_total 5.302349 s
+rb_total 1.149105 s
+lhs_total 23.985174 s
+rhs_total 1.121012 s
+dz_total 25.165699 s
+dl_total 1.155981 s
+dt_total 0.003132 s
+Total_time 57.980801 s
+Q size: 10240000
+c size: 3200
+Matrix size [6400, 3200]
+0.983045
+0.970483
+-nan
+-nan
+-nan
+-nan
+-nan
+-nan
+rd_total 10.561230 s
+rb_total 2.283790 s
+lhs_total 47.846863 s
+rhs_total 2.238756 s
+dz_total 25.133165 s
+dl_total 2.291334 s
+dt_total 0.007054 s
+Total_time 90.517677 s
+
+// CPU
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 50
+50
+Q size: 2500
+c size: 50
+J size: 5000
+g size: 100
+Matrix size [100, 50]
+0.984909
+0.738195
+4.88488e+18
+3.65697e+18
+rd_total 0.004942 s
+rb_total 0.000137 s
+lhs_total 0.004278 s
+rhs_total 0.000152 s
+dz_total 0.003396 s
+dl_total 0.000173 s
+dt_total 0.000039 s
+Total_time 0.013892 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 100
+100
+Q size: 10000
+c size: 100
+J size: 20000
+g size: 200
+Matrix size [200, 100]
+0.984915
+0.739391
+0.739393
+2.77767e+26
+rd_total 0.004848 s
+rb_total 0.000376 s[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 50
+50
+Q size: 2500
+c size: 50
+J size: 5000
+g size: 100
+Matrix size [100, 50]
+0.984909
+0.738195
+4.88488e+18
+3.65697e+18
+rd_total 0.004942 s
+rb_total 0.000137 s
+lhs_total 0.004278 s
+rhs_total 0.000152 s
+dz_total 0.003396 s
+dl_total 0.000173 s
+dt_total 0.000039 s
+Total_time 0.013892 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 100
+100
+Q size: 10000
+c size: 100
+J size: 20000
+g size: 200
+Matrix size [200, 100]
+0.984915
+0.739391
+0.739393
+2.77767e+26
+rd_total 0.004848 s
+rb_total 0.000376 s
+lhs_total 0.009446 s
+rhs_total 0.000440 s
+dz_total 0.008926 s
+dl_total 0.000419 s
+dt_total 0.000064 s
+Total_time 0.025349 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 200
+200
+Q size: 40000
+c size: 200
+J size: 80000
+g size: 400
+Matrix size [400, 200]
+0.984899
+0.738911
+1.66589e+30
+1.18437e+30
+rd_total 0.007488 s
+rb_total 0.001234 s
+lhs_total 0.073324 s
+rhs_total 0.002957 s
+dz_total 0.033337 s
+dl_total 0.002741 s
+dt_total 0.000150 s
+Total_time 0.122127 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 400
+400
+Q size: 160000
+c size: 400
+J size: 320000
+g size: 800
+Matrix size [800, 400]
+0.984882
+0.737181
+1.04405e+15
+7.85692e+14
+rd_total 0.020447 s
+rb_total 0.010801 s
+lhs_total 0.471865 s
+rhs_total 0.011015 s
+dz_total 0.173014 s
+dl_total 0.010992 s
+dt_total 0.000285 s
+Total_time 0.699412 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 800
+800
+Q size: 640000
+c size: 800
+J size: 1280000
+g size: 1600
+Matrix size [1600, 800]
+0.984895
+1.44203e+09
+1.602e+199
+-nan
+rd_total 0.090984 s
+rb_total 0.050078 s
+lhs_total 3.428909 s
+rhs_total 0.054422 s
+dz_total 0.781400 s
+dl_total 0.059361 s
+dt_total 0.000827 s
+Total_time 4.467532 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 1600
+1600
+Q size: 2560000
+c size: 1600
+J size: 5120000
+g size: 3200
+Matrix size [3200, 1600]
+0.984894
+-2384.71
+1.81115e+150
+-nan
+rd_total 0.432807 s
+rb_total 0.288317 s
+lhs_total 24.533804 s
+rhs_total 0.287654 s
+dz_total 5.354773 s
+dl_total 0.292437 s
+dt_total 0.001803 s
+Total_time 31.237352 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 3200
+3200
+Q size: 10240000
+c size: 3200
+J size: 20480000
+g size: 6400
+Matrix size [6400, 3200]
+0.984888
+-68.4903
+1.47746e+136
+-nan
+rd_total 1.726793 s
+rb_total 1.164130 s
+lhs_total 186.762817 s
+rhs_total 1.141116 s
+dz_total 39.622139 s
+dl_total 1.174242 s
+dt_total 0.003213 s
+Total_time 231.703812 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 50
+50
+Q size: 2500
+c size: 50
+J size: 5000
+g size: 100
+Matrix size [100, 50]
+0.984909
+0.738195
+4.88488e+18
+3.65697e+18
+rd_total 0.004942 s
+rb_total 0.000137 s
+lhs_total 0.004278 s
+rhs_total 0.000152 s
+dz_total 0.003396 s
+dl_total 0.000173 s
+dt_total 0.000039 s
+Total_time 0.013892 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 100
+100
+Q size: 10000
+c size: 100
+J size: 20000
+g size: 200
+Matrix size [200, 100]
+0.984915
+0.739391
+0.739393
+2.77767e+26
+rd_total 0.004848 s
+rb_total 0.000376 s
+lhs_total 0.009446 s
+rhs_total 0.000440 s
+dz_total 0.008926 s
+dl_total 0.000419 s
+dt_total 0.000064 s
+Total_time 0.025349 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 200
+200
+Q size: 40000
+c size: 200
+J size: 80000
+g size: 400
+Matrix size [400, 200]
+0.984899
+0.738911
+1.66589e+30
+1.18437e+30
+rd_total 0.007488 s
+rb_total 0.001234 s
+lhs_total 0.073324 s
+rhs_total 0.002957 s
+dz_total 0.033337 s
+dl_total 0.002741 s
+dt_total 0.000150 s
+Total_time 0.122127 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 400
+400
+Q size: 160000
+c size: 400
+J size: 320000
+g size: 800
+Matrix size [800, 400]
+0.984882
+0.737181
+1.04405e+15
+7.85692e+14
+rd_total 0.020447 s
+rb_total 0.010801 s
+lhs_total 0.471865 s
+rhs_total 0.011015 s
+dz_total 0.173014 s
+dl_total 0.010992 s
+dt_total 0.000285 s
+Total_time 0.699412 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 800
+800
+Q size: 640000
+c size: 800
+J size: 1280000
+g size: 1600
+Matrix size [1600, 800]
+0.984895
+1.44203e+09
+1.602e+199
+-nan
+rd_total 0.090984 s
+rb_total 0.050078 s
+lhs_total 3.428909 s
+rhs_total 0.054422 s
+dz_total 0.781400 s
+dl_total 0.059361 s
+dt_total 0.000827 s
+Total_time 4.467532 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 1600
+1600
+Q size: 2560000
+c size: 1600
+J size: 5120000
+g size: 3200
+Matrix size [3200, 1600]
+0.984894
+-2384.71
+1.81115e+150
+-nan
+rd_total 0.432807 s
+rb_total 0.288317 s
+lhs_total 24.533804 s
+rhs_total 0.287654 s
+dz_total 5.354773 s
+dl_total 0.292437 s
+dt_total 0.001803 s
+Total_time 31.237352 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 3200
+3200
+Q size: 10240000
+c size: 3200
+J size: 20480000
+g size: 6400
+Matrix size [6400, 3200]
+0.984888
+-68.4903
+1.47746e+136
+-nan
+rd_total 1.726793 s
+rb_total 1.164130 s
+lhs_total 186.762817 s
+rhs_total 1.141116 s
+dz_total 39.622139 s
+dl_total 1.174242 s
+dt_total 0.003213 s
+Total_time 231.703812 s
+
+// CP
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 50
+50
+Q size: 2500
+c size: 50
+J size: 5000
+g size: 100
+Matrix size [100, 50]
+0.984909
+0.738195
+4.88488e+18
+3.65697e+18
+rd_total 0.004942 s
+rb_total 0.000137 s
+lhs_total 0.004278 s
+rhs_total 0.000152 s
+dz_total 0.003396 s
+dl_total 0.000173 s
+dt_total 0.000039 s
+Total_time 0.013892 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 100
+100
+Q size: 10000
+c size: 100
+J size: 20000
+g size: 200
+Matrix size [200, 100]
+0.984915
+0.739391
+0.739393
+2.77767e+26
+rd_total 0.004848 s
+rb_total 0.000376 s
+lhs_total 0.009446 s
+rhs_total 0.000440 s
+dz_total 0.008926 s
+dl_total 0.000419 s
+dt_total 0.000064 s
+Total_time 0.025349 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 200
+200
+Q size: 40000
+c size: 200
+J size: 80000
+g size: 400
+Matrix size [400, 200]
+0.984899
+0.738911
+1.66589e+30
+1.18437e+30
+rd_total 0.007488 s
+rb_total 0.001234 s
+lhs_total 0.073324 s
+rhs_total 0.002957 s
+dz_total 0.033337 s
+dl_total 0.002741 s
+dt_total 0.000150 s
+Total_time 0.122127 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 400
+400
+Q size: 160000
+c size: 400
+J size: 320000
+g size: 800
+Matrix size [800, 400]
+0.984882
+0.737181
+1.04405e+15
+7.85692e+14
+rd_total 0.020447 s
+rb_total 0.010801 s
+lhs_total 0.471865 s
+rhs_total 0.011015 s
+dz_total 0.173014 s
+dl_total 0.010992 s
+dt_total 0.000285 s
+Total_time 0.699412 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 800
+800
+Q size: 640000
+c size: 800
+J size: 1280000
+g size: 1600
+Matrix size [1600, 800]
+0.984895
+1.44203e+09
+1.602e+199
+-nan
+rd_total 0.090984 s
+rb_total 0.050078 s
+lhs_total 3.428909 s
+rhs_total 0.054422 s
+dz_total 0.781400 s
+dl_total 0.059361 s
+dt_total 0.000827 s
+Total_time 4.467532 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 1600
+1600
+Q size: 2560000
+c size: 1600
+J size: 5120000
+g size: 3200
+Matrix size [3200, 1600]
+0.984894
+-2384.71
+1.81115e+150
+-nan
+rd_total 0.432807 s
+rb_total 0.288317 s
+lhs_total 24.533804 s
+rhs_total 0.287654 s
+dz_total 5.354773 s
+dl_total 0.292437 s
+dt_total 0.001803 s
+Total_time 31.237352 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 3200
+3200
+Q size: 10240000
+c size: 3200
+J size: 20480000
+g size: 6400
+Matrix size [6400, 3200]
+0.984888
+-68.4903
+1.47746e+136
+-nan
+rd_total 1.726793 s
+rb_total 1.164130 s
+lhs_total 186.762817 s
+rhs_total 1.141116 s
+dz_total 39.622139 s
+dl_total 1.174242 s
+dt_total 0.003213 s
+Total_time 231.703812 s
+
+// CPU
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 50
+50
+Q size: 2500
+c size: 50
+J size: 5000
+g size: 100
+Matrix size [100, 50]
+0.984909
+0.738195
+4.88488e+18
+3.65697e+18
+rd_total 0.004942 s
+rb_total 0.000137 s
+lhs_total 0.004278 s
+rhs_total 0.000152 s
+dz_total 0.003396 s
+dl_total 0.000173 s
+dt_total 0.000039 s
+Total_time 0.013892 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 100
+100
+Q size: 10000
+c size: 100
+J size: 20000
+g size: 200
+Matrix size [200, 100]
+0.984915
+0.739391
+0.739393
+2.77767e+26
+rd_total 0.004848 s
+rb_total 0.000376 s
+lhs_total 0.009446 s
+rhs_total 0.000440 s
+dz_total 0.008926 s
+dl_total 0.000419 s
+dt_total 0.000064 s
+Total_time 0.025349 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 200
+200
+Q size: 40000
+c size: 200
+J size: 80000
+g size: 400
+Matrix size [400, 200]
+0.984899
+0.738911
+1.66589e+30
+1.18437e+30
+rd_total 0.007488 s
+rb_total 0.001234 s
+lhs_total 0.073324 s
+rhs_total 0.002957 s
+dz_total 0.033337 s
+dl_total 0.002741 s
+dt_total 0.000150 s
+Total_time 0.122127 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 400
+400
+Q size: 160000
+c size: 400
+J size: 320000
+g size: 800
+Matrix size [800, 400]
+0.984882
+0.737181
+1.04405e+15
+7.85692e+14
+rd_total 0.020447 s
+rb_total 0.010801 s
+lhs_total 0.471865 s
+rhs_total 0.011015 s
+dz_total 0.173014 s
+dl_total 0.010992 s
+dt_total 0.000285 s
+Total_time 0.699412 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 800
+800
+Q size: 640000
+c size: 800
+J size: 1280000
+g size: 1600
+Matrix size [1600, 800]
+0.984895
+1.44203e+09
+1.602e+199
+-nan
+rd_total 0.090984 s
+rb_total 0.050078 s
+lhs_total 3.428909 s
+rhs_total 0.054422 s
+dz_total 0.781400 s
+dl_total 0.059361 s
+dt_total 0.000827 s
+Total_time 4.467532 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 1600
+1600
+Q size: 2560000
+c size: 1600
+J size: 5120000
+g size: 3200
+Matrix size [3200, 1600]
+0.984894
+-2384.71
+1.81115e+150
+-nan
+rd_total 0.432807 s
+rb_total 0.288317 s
+lhs_total 24.533804 s
+rhs_total 0.287654 s
+dz_total 5.354773 s
+dl_total 0.292437 s
+dt_total 0.001803 s
+Total_time 31.237352 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 3200
+3200
+Q size: 10240000
+c size: 3200
+J size: 20480000
+g size: 6400
+Matrix size [6400, 3200]
+0.984888
+-68.4903
+1.47746e+136
+-nan
+rd_total 1.726793 s
+rb_total 1.164130 s
+lhs_total 186.762817 s
+rhs_total 1.141116 s
+dz_total 39.622139 s
+dl_total 1.174242 s
+dt_total 0.003213 s
+Total_time 231.703812 s
+lhs_total 0.009446 s
+rhs_total 0.000440 s
+dz_total 0.008926 s
+dl_total 0.000419 s
+dt_total 0.000064 s
+Total_time 0.025349 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 200
+200
+Q size: 40000
+c size: 200
+J size: 80000
+g size: 400
+Matrix size [400, 200]
+0.984899
+0.738911
+1.66589e+30
+1.18437e+30
+rd_total 0.007488 s
+rb_total 0.001234 s
+lhs_total 0.073324 s
+rhs_total 0.002957 s
+dz_total 0.033337 s
+dl_total 0.002741 s
+dt_total 0.000150 s
+Total_time 0.122127 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 400
+400
+Q size: 160000
+c size: 400
+J size: 320000
+g size: 800
+Matrix size [800, 400]
+0.984882
+0.737181
+1.04405e+15
+7.85692e+14
+rd_total 0.020447 s
+rb_total 0.010801 s
+lhs_total 0.471865 s
+rhs_total 0.011015 s
+dz_total 0.173014 s
+dl_total 0.010992 s
+dt_total 0.000285 s
+Total_time 0.699412 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 800
+800
+Q size: 640000
+c size: 800
+J size: 1280000
+g size: 1600
+Matrix size [1600, 800]
+0.984895
+1.44203e+09
+1.602e+199
+-nan
+rd_total 0.090984 s
+rb_total 0.050078 s
+lhs_total 3.428909 s
+rhs_total 0.054422 s
+dz_total 0.781400 s
+dl_total 0.059361 s
+dt_total 0.000827 s
+Total_time 4.467532 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 1600
+1600
+Q size: 2560000
+c size: 1600
+J size: 5120000
+g size: 3200
+Matrix size [3200, 1600]
+0.984894
+-2384.71
+1.81115e+150
+-nan
+rd_total 0.432807 s
+rb_total 0.288317 s
+lhs_total 24.533804 s
+rhs_total 0.287654 s
+dz_total 5.354773 s
+dl_total 0.292437 s
+dt_total 0.001803 s
+Total_time 31.237352 s
+[swang980@atl1-1-02-009-33-0 ipm_gpu]$ ./cpu_ipm.out 3200
+3200
+Q size: 10240000
+c size: 3200
+J size: 20480000
+g size: 6400
+Matrix size [6400, 3200]
+0.984888
+-68.4903
+1.47746e+136
+-nan
+rd_total 1.726793 s
+rb_total 1.164130 s
+lhs_total 186.762817 s
+rhs_total 1.141116 s
+dz_total 39.622139 s
+dl_total 1.174242 s
+dt_total 0.003213 s
+Total_time 231.703812 s

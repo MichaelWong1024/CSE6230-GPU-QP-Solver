@@ -1,0 +1,32 @@
+
+Setting up the problem...0.008396 s
+Allocating device variables...0.115386 s
+Copying data from host to device...0.000810 s
+Launching kernel...0.000304 s
+Copying data from device to host...0.000875 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...0.031774 s
+Allocating device variables...0.114908 s
+Copying data from host to device...0.002539 s
+Launching kernel...0.000889 s
+Copying data from device to host...0.002465 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...0.123486 s
+Allocating device variables...0.113278 s
+Copying data from host to device...0.009242 s
+Launching kernel...0.005386 s
+Copying data from device to host...0.007217 s
+Verifying results...TEST PASSED
+
+
+Setting up the problem...0.338459 s
+Allocating device variables...0.116774 s
+Copying data from host to device...0.024947 s
+Launching kernel...0.025913 s
+Copying data from device to host...0.016231 s
+Verifying results...TEST PASSED
+
